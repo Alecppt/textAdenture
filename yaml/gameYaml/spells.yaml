@@ -1,0 +1,412 @@
+defense:
+- Effect: '''10'' 31 ''-3'' -1'
+  Mana: 10
+  Minlevel: 51
+  Name: Wrath of Dominus
+- Duration: 12
+  Effect: '''l*23'' 26 ''aqua breath'' 31'
+  Hitchar: $N's lungs take on the ability to breathe water...
+  Hitroom: $N's lungs take on the ability to breathe water...
+  Hitvict: Your lungs take on the ability to breathe water...
+  Mana: 50
+  Minlevel: 14
+  Name: aqua breath
+  Wearoff: Your lungs revert to their original state.
+- Duration: 12
+  Effect: '''l*10'' 17 ''-20'' -1'
+  Hitchar: $N's armor begins to glow softly as it is enhanced by a cantrip.
+  Hitroom: $N's armor begins to glow softly as it is enhanced by a cantrip.
+  Hitvict: Your armor begins to glow softly as it is enhanced by a cantrip.
+  Mana: 5
+  Minlevel: 1
+  Name: armor
+  Wearoff: Your armor returns to its mundane value.
+- Duration: 15
+  Effect: '''l'' 26 ''protection'' 13'
+  Hitchar: You lay The Protection of The High Gods upon $N.
+  Hitroom: The Protection of The High Gods is temporarily given to $N.
+  Hitvict: The Protection of The High Gods is temporarily given to you.
+  Mana: 15
+  Minlevel: 19
+  Name: benediction
+  Wearoff: Your time in The Protection of The High Gods is over.
+- Duration: 12
+  Mana: 30
+  Minlevel: 9
+  Name: bethsaidean touch
+- Duration: 12
+  Effect: '''l*23'' 18 ''l/8'' -1'
+  Hitchar: You lay the blessing of your god upon $N.
+  Hitroom: $N beams as a powerful blessing is laid upon $M.
+  Hitvict: A powerful blessing is laid upon you.
+  Mana: 5
+  Minlevel: 5
+  Name: bless
+  Wearoff: The blessing fades away.
+- Duration: 12
+  Mana: 5
+  Minlevel: 4
+  Name: cure blindness
+- Duration: 12
+  Effect: ''''' 13 ''3d8+(l-6)'' -1'
+  Hitchar: You cure $N's critical wounds.
+  Hitvict: Your critical wounds close and your pain ebbs away.
+  Mana: 20
+  Minlevel: 9
+  Name: cure critical
+- Duration: 12
+  Effect: ''''' 13 ''1d8+(l/3)'' -1'
+  Hitchar: You cure $N's light wounds.
+  Hitvict: Your light wounds mend and your pain ebbs slightly.
+  Mana: 10
+  Minlevel: 1
+  Name: cure light
+  Wearoff: Your ability to see in the dark fades away.
+- Duration: 12
+  Mana: 5
+  Minlevel: 8
+  Name: cure poison
+- Duration: 12
+  Effect: ''''' 13 ''2d8+(l/2)'' -1'
+  Hitchar: You cure $N's serious wounds.
+  Hitvict: Your serious wounds mend and your pain ebbs away.
+  Mana: 15
+  Minlevel: 5
+  Name: cure serious
+- Duration: 12
+  Effect: ''''' 13 ''200'' -1'
+  Hitchar: You allow a divine presence to flow through $N.
+  Hitvict: You are filled with a divine presence.
+  Mana: 115
+  Minlevel: 42
+  Name: divinity
+- Duration: 12
+  Effect: '''l*24'' 3 ''1+(l/17)'' -1'
+  Hitchar: $N's eyes glimmer with the wit of the dragon.
+  Hitroom: $N's eyes glimmer with the wit of the dragon.
+  Hitvict: Your mind awakens in reception to the dragon's wit.
+  Mana: 20
+  Minlevel: 9
+  Name: dragon wit
+  Wearoff: The wit of the dragon withdraws from your mind.
+- Duration: 12
+  Effect: '''l*24'' 25 ''1+(l/17)'' -1'
+  Hitchar: $N's ears grow pointed and $S voice takes on a musical aspect.
+  Hitroom: $N's ears grow pointed and $S voice takes on a musical aspect.
+  Hitvict: Your face is blessed with elven features as you grow more attractive.
+  Mana: 14
+  Minlevel: 3
+  Name: elven beauty
+  Wearoff: Your elven features wane and you feel less charismatic.
+- Dammsg: exorcism
+  Duration: 10
+  Effect: ''''' 60 ''94'' -1'
+  Hitchar: You chant wildly and perform an exorcism on $N.
+  Hitroom: $N has undergone an exorcism!
+  Hitvict: The demons within you are painfully extracted by $n. You feel relieved.
+  Mana: 50
+  Minlevel: 25
+  Name: exorcism
+- Duration: 12
+  Effect: '''(l*4)+8'' 26 ''fireshield'' 25'
+  Hitchar: Mystical flames rise to enshroud $N.
+  Hitroom: Mystical flames rise to enshroud $N.
+  Hitvict: Mystical flames rise to enshroud you.
+  Mana: 85
+  Minlevel: 28
+  Name: fireshield
+  Wearoff: The mystical flames are quelled by a sudden rush of air.
+- Duration: 18
+  Effect: '''l*24'' 26 ''float'' 21'
+  Hitchar: $N begins to float in mid-air...
+  Hitroom: $N begins to float in mid-air...
+  Hitvict: You begin to float in mid-air...
+  Mana: 8
+  Minlevel: 1
+  Name: float
+  Wearoff: Your feet float slowly to the surface.
+- Duration: 18
+  Effect: '''l*24'' 26 ''fly'' 19'
+  Hitchar: $N rises into the currents of air...
+  Hitroom: $N rises into the currents of air...
+  Hitvict: You rise into the currents of air...
+  Mana: 10
+  Minlevel: 7
+  Name: fly
+  Wearoff: You slowly float to the ground.
+- Duration: 18
+  Effect: ''''' 13 ''3d8+(l-6)'' -1'
+  Hitvict: Your group's wounds close and mend.
+  Mana: 40
+  Minlevel: 15
+  Name: fortify
+- Duration: 12
+  Mana: 50
+  Minlevel: 51
+  Name: gate
+- Duration: 12
+  Effect: ''''' 13 ''100'' -1'
+  Hitchar: You lay a hand of healing upon $N.
+  Hitvict: A warm feeling fills your body.
+  Mana: 50
+  Minlevel: 14
+  Name: heal
+- Duration: 12
+  Effect: ''''' 13 ''5*(l/3)'' -1'
+  Hitchar: You infuse $N with a healing vitality.
+  Hitvict: Your wounds are soothed by a healing vitality.
+  Mana: 40
+  Minlevel: 13
+  Name: hezekiahs cure
+- Duration: 12
+  Effect: '''(l*4)+8'' 26 ''iceshield'' 28'
+  Hitchar: A glistening shield of ice encompasses $N!
+  Hitroom: A glistening hail of ice encompasses $N.
+  Hitvict: A glistening shield of ice encompasses you!
+  Mana: 85
+  Minlevel: 22
+  Name: iceshield
+  Wearoff: The hail of ice rapidly melts and evaporates into nothingness.
+- Duration: 15
+  Effect: '''l/2'' 19 ''1+(l/17)'' -1'
+  Hitchar: You lay The Fury of The High Gods upon $N.
+  Hitroom: The Fury of The High Gods is temporarily given to $N.
+  Hitvict: The Fury of The High Gods is temporarily given to you.
+  Mana: 90
+  Minlevel: 27
+  Name: indignation
+  Wearoff: The Fury of The High Gods seeps from your veins, leaving you drained.
+- Duration: 18
+  Effect: '''l*24'' 26 ''infravision'' 9'
+  Hitchar: $N's eyes dart about as they grow accustomed to infravision.
+  Hitroom: $N's eyes dart about as they grow accustomed to infravision.
+  Hitvict: Heat appears red through your eyes.
+  Mana: 5
+  Minlevel: 1
+  Name: infravision
+  Wearoff: You no longer see in the dark.
+- Duration: 8
+  Effect: '''l*23'' 27 ''2'' -1'
+  Hitchar: A mysterious warmth radiates from $N...
+  Hitroom: A mysterious warmth radiates from $N...
+  Hitvict: A comforting warmth spreads through your frame.
+  Mana: 65
+  Minlevel: 20
+  Name: inner warmth
+  Wearoff: The magical warmth within you subsides.
+- Duration: 12
+  Effect: '''l*24'' 1 ''1+(l/17)'' -1'
+  Hitchar: $N's muscles ripple as vampiric powers flow through $M...
+  Hitroom: $N's muscles ripple as vampiric powers flow through $M...
+  Hitvict: The strength of the Kindred flows through your veins...
+  Mana: 20
+  Minlevel: 7
+  Name: kindred strength
+  Wearoff: Your vampiric potence slowly withers away...
+- Duration: 12
+  Mana: 9
+  Minlevel: 5
+  Name: know alignment
+- Duration: 15
+  Effect: '''l'' 26 ''sanctuary'' 7'
+  Hitchar: You lay The Sanctuary of The High Gods upon $N.
+  Hitroom: The Sanctuary of The High Gods is temporarily given to $N.
+  Hitvict: The Sanctuary of The High Gods is temporarily given to you.
+  Mana: 90
+  Minlevel: 18
+  Name: major invocation
+  Wearoff: Your time in The Sanctuary of The High Gods is over.
+- Duration: 24
+  Effect: '''l*11'' 26 ''mass invis'' 1'
+  Hitroom: $N fades from existence.
+  Hitvict: You fade from existence.
+  Mana: 20
+  Minlevel: 15
+  Name: mass invis
+  Wearoff: You are no longer invisible.
+- Dammsg: '''mind fortress'''
+  Duration: 40
+  Effect: '''l*24'' 3 ''+1'' -1'
+  Hitvict: Your mental powers block out magic!
+  Mana: 100
+  Minlevel: 8
+  Name: mind fortress
+  Wearoff: Your mind fortress dissolves!
+- Duration: 15
+  Effect: ''''' 60 ''3'' -1'
+  Hitchar: You lay a minor invocation of your god upon $N.
+  Hitroom: $N beams as a minor invocation is laid upon $M.
+  Hitvict: A minor invocation is laid upon you.
+  Mana: 10
+  Minlevel: 10
+  Name: minor invocation
+  Wearoff: The minor invocation fades away.
+- Dammsg: refresh
+  Duration: 18
+  Effect: ''''' 14 ''l'' -1'
+  Hitchar: You allow blooming vitality to flow from you to $N.
+  Hitvict: Blooming vitality flows through you.
+  Mana: 12
+  Minlevel: 3
+  Name: refresh
+- Duration: 12
+  Mana: 5
+  Minlevel: 12
+  Name: remove curse
+- Duration: 13
+  Effect: '''l*23'' 27 ''512'' -1'
+  Hitchar: You bless $N with a holy resilience.
+  Hitroom: $N grows resilient from a powerful spell.
+  Hitvict: You feel resilient.
+  Mana: 47
+  Minlevel: 40
+  Name: resilience
+  Wearoff: You no longer feel resilient.
+- Duration: 12
+  Effect: ''''' 12 ''l+2d10'' -1'
+  Hitvict: A surge of mana spreads throughout your being.
+  Mana: 20
+  Minlevel: 51
+  Name: restore mana
+- Duration: 12
+  Effect: '''l*24'' 4 ''1+(l/17)'' -1'
+  Hitchar: $N grows serious as wisdom takes root within $M.
+  Hitroom: $N grows serious as wisdom takes root within $M.
+  Hitvict: The wisdom of your elders blossoms within you.
+  Mana: 12
+  Minlevel: 12
+  Name: sagacity
+  Wearoff: Furrowing your brow, you sense the weight of wisdom leave you.
+- Duration: 12
+  Effect: '''(l*4)+30'' 26 ''sanctuary'' 7'
+  Hitchar: A luminous aura spreads slowly over $N's body.
+  Hitroom: A luminous aura spreads slowly over $N's body.
+  Hitvict: A luminous aura spreads slowly over your body.
+  Mana: 75
+  Minlevel: 13
+  Name: sanctuary
+  Wearoff: The luminous aura about your body fades away.
+- Dammsg: MOB SPELL ONLY
+  Duration: 12
+  Effect: '''1d100+100'' 14 ''-(l*4+25)'' -1'
+  Hitchar: You call forth the powers of the water and soak $N to the bone!
+  Hitvict: Water slowly seeps into your equipment, making you feel heavy.
+  Mana: 1
+  Minlevel: 51
+  Name: saturation
+  Wearoff: The last drops of water finally evaporate from your body
+- Duration: 12
+  Effect: '''l*23'' 26 ''scry'' 24'
+  Hitchar: $N's eyes glaze over as $E endures a vision...
+  Hitroom: $N's eyes glaze over as $E endures a vision...
+  Hitvict: You receive a revelatory vision...
+  Mana: 20
+  Minlevel: 15
+  Name: scry
+  Wearoff: Your clairvoyance slowly disintegrates...
+- Duration: 18
+  Effect: '''l*24'' 17 ''-20'' -1'
+  Hitchar: A force shield of shimmering blue surrounds $N.
+  Hitroom: A force shield of shimmering blue surrounds $N.
+  Hitvict: A force shield of shimmering blue surrounds you.
+  Mana: 12
+  Minlevel: 13
+  Name: shield
+  Wearoff: Your force shield shimmers then fades away.
+- Duration: 12
+  Effect: '''l*24'' 2 ''1+(l/17)'' -1'
+  Hitchar: $N suddenly appears more agile...
+  Hitroom: $N suddenly appears more agile...
+  Hitvict: You suddenly feel more nimble...
+  Mana: 12
+  Minlevel: 9
+  Name: slink
+  Wearoff: You suddenly feel less coordinated...
+- Duration: 12
+  Effect: '''l*24'' 25 ''-1'' -1'
+  Hitchar: $N's face contorts with a bestial vigor...
+  Hitroom: $N's face contorts with a bestial vigor...
+  Hitvict: You sense a bestial vigor consume you...
+  Mana: 16
+  Minlevel: 6
+  Name: trollish vigor
+  Wearoff: Your vigor subsides, leaving you more charismatic.
+- Duration: 18
+  Effect: '''l*23'' 27 ''2097152'' -1'
+  Hitchar: $N is surrounded by an aura which protects $M from paralysis.
+  Hitroom: $N is surrounded by an aura which protects $M from paralysis.
+  Hitvict: A magical resistance to paralysis consumes you.
+  Mana: 40
+  Minlevel: 14
+  Name: valiance
+  Wearoff: Your resistance to paralysis slowly fades away...
+object:
+- Duration: 12
+  Mana: 5
+  Minlevel: 2
+  Name: create water
+- Dammsg: desecrate
+  Duration: 10
+  Effect: ''''' 26 ''desecration'' -1'
+  Hitroom: Nephandi rejoice as another item is desecrated!
+  Hitvict: The desecration is successful!
+  Mana: 15
+  Minlevel: 48
+  Name: desecrate
+- Duration: 12
+  Mana: 5
+  Minlevel: 4
+  Name: detect poison
+- Duration: 10
+  Hitchar: You focus your divining powers on $O...
+  Mana: 10
+  Minlevel: 51
+  Name: divination
+- Duration: 24
+  Mana: 100
+  Minlevel: 12
+  Name: enchant weapon
+- Duration: 24
+  Mana: 50
+  Minlevel: 13
+  Name: midas touch
+- Duration: 24
+  Mana: 100
+  Minlevel: 33
+  Name: recharge
+offense:
+- Dammsg: Acetum Primus
+  Duration: 8
+  Mana: 15
+  Minlevel: 37
+  Name: acetum primus
+- Dammsg: acid blast
+  Duration: 12
+  Mana: 20
+  Minlevel: 20
+  Name: acid blast
+- Dammsg: blast of acid
+  Duration: 4
+  Mana: 20
+  Minlevel: 43
+  Name: acid breath
+- Duration: 20
+  Minlevel: 51
+  Mana: 15
+  Minlevel: 23
+  Name: acidmist
+- Dammsg: Black Fist
+  Duration: 8
+  Mana: 15
+  Minlevel: 23
+  Name: black fist
+- Dammsg: Black Hand
+  Duration: 8
+  Mana: 8
+  Minlevel: 2
+  Name: black hand
+- Dammsg: Black Lightning
+  Duration: 8
+  Mana: 15
+  Minlevel: 46
+  Name: black lightning
